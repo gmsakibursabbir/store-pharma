@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) { 
     .waves {
-        margin-bottom: -170px;
+        margin-bottom: -210px;
     
     }
     .input-newsletter{
@@ -62,7 +62,7 @@
     }
     .hero-row{
         padding-top: 60px;
-        padding-bottom: 80px;
+        padding-bottom: 100px;
     }
     #hero{
         background-size: auto;
@@ -73,6 +73,7 @@
     }
     .about-image{
         text-align: center;
+        margin: 0 auto;
     }
     .about-content{
         padding-top: 30px;
@@ -256,7 +257,7 @@
 
 @media (min-width: 576px) { 
     .waves {
-        margin-bottom: -200px;
+        margin-bottom: 100px;
     
     }
  }

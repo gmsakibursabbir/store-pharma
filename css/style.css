@@ -30,7 +30,17 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
-#hero,#about,#footer{
+#hero,
+#about,
+#why,
+#shop,
+#order,
+#testimoials,
+#notice,
+#newsletter,
+#contact,
+#faq,
+#footer{
 overflow-x: hidden;
 }
 p{
@@ -299,7 +309,7 @@ border-radius: 30px;
     width: 100%;
     height: 15vh;
     z-index:1;
-    margin-bottom: -50px;
+
     min-height: 100px;
     max-height: 150px; 
 }

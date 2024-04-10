@@ -38,7 +38,14 @@
       .pill-center {
         font-size: 12px;
     }
-
+    .testi-box{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .testiSwiper {
+     padding-left: 10;
+     padding-right: 10;
+    }
    
 }
 @media (max-width: 991.98px) {
@@ -138,7 +145,7 @@
         padding: 50px 0;
      }
      .testi-next svg, .testi-prev svg{
-        max-width: 40px;
+        max-width: 45px;
      }
     
      #notice {
@@ -247,6 +254,9 @@
     .navbar{
         padding-top: 0px;
         padding-bottom: 0px;
+    }
+    header .nav-link{
+        text-align: center;
     }
   }
 

@@ -97,10 +97,10 @@
         padding-bottom: 40px;
     }
     .gallery-pagination{
-        gap: 0 25px;
+        gap: 0 20px;
         padding-top: 30px;
     }
-    .gallery-pagination img{
+    .gallery-pagination svg{
         max-width: 40px;
     }
     .order-row{
@@ -137,7 +137,7 @@
      .card-slider{
         padding: 50px 0;
      }
-     .testi-next, .testi-prev{
+     .testi-next svg, .testi-prev svg{
         max-width: 40px;
      }
     

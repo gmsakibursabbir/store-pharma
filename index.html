@@ -24,15 +24,17 @@
             <div class="container">
                 <a class="navbar-brand" href="./index.html"><img src="./images/central-drag-house-pharmacy-logo.png"
                         class="img-fluid" /></a>
-                <button class="btn navbar-toggler sm-btn border-0" type="button" data-bs-toggle="offcanvas"
+                <a class="btn navbar-toggler sm-btn border-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <img src="./images/menu.svg" class="img-fluid menu" />
-                </button>
+                </a>
                 <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="offcanvasExample"
                     aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header d-flex d-lg-none ">
-                        <button type="button" class="btn-close text-reset p-0" data-bs-dismiss="offcanvas"
-                            aria-label="close"></button>
+                        <a href="javascript:void(0)"  class="text-reset p-0 btn-clse" data-bs-dismiss="offcanvas"
+                            aria-label="close">
+                            <img src="./images/close.svg" class="img-fluid" alt="">
+                        </a>
                     </div>
                     <div class="offcanvas-body overflow-visible p-lg-0">
                         <a class="navbar-brand d-lg-none d-block oc-logo" href="/index.html"><img src="images/logo.svg"
@@ -99,9 +101,9 @@
                     </div>
                 </div>
             </div>
-          
         </section>
         <!-- hero end -->
+        <!-- wave start -->
         <section id="wave">
             <div class="wave-box">
                 <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -119,6 +121,7 @@
                 </svg>
             </div>
         </section>
+        <!-- wave end -->
         <!-- about start -->
         <section id="about">
             <div class="container">
@@ -161,7 +164,7 @@
                 </div>
                 <div class="row why-row align-items-center text-center">
                     <div class="col-lg-4 col-md-12">
-                        <div class="why-single" data-aos="zoom-in-up">
+                        <div class="why-single clr-layer" data-aos="zoom-in-up">
                             <div class="why-icon">
                                 <img src="./images/quick-pharmacy-service.png" class="img-fluid" alt="Convenient and Quick Pharmacy
                                 Services " />
@@ -171,19 +174,13 @@
                                     Services </h5>
                                 <p>Lorem ipsum dolor sit amet consectetur. Duis tristique lorem pretium eget iaculis eu
                                 </p>
-                                <a href="#" class="btn lrn-btn">Learn More <svg class="svg-icon" width="22" height="22"
-                                        viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M13.2275 5.43585L18.7917 11L13.2275 16.5642" stroke="black"
-                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M3.20801 11H18.6355" stroke="black" stroke-miterlimit="10"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </a>
+                                <a href="#" class="btn lrn-btn">Learn More <img src="./images/right-arrow.svg"
+                                    class="img-fluid"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
-                        <div class="why-single" data-aos="zoom-in-up">
+                        <div class="why-single clr-layer" data-aos="zoom-in-up">
                             <div class="why-icon">
                                 <img src="./images/best-medicine.png" class="img-fluid" alt="Convenient and Quick Pharmacy
                                 Services " />
@@ -199,7 +196,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
-                        <div class="why-single" data-aos="zoom-in-up">
+                        <div class="why-single clr-layer" data-aos="zoom-in-up">
                             <div class="why-icon">
                                 <img src="./images/truted-pharmacy.png" class="img-fluid" alt="Convenient and Quick Pharmacy
                                 Services " />
@@ -332,7 +329,7 @@
                             </div>
                             <div class="row order-item-row">
                                 <div class="col-lg-4">
-                                    <div class="order-single" data-aos="fade-right">
+                                    <div class="order-single clr-layer" data-aos="fade-right">
                                         <div class="order-icon">
                                             <img src="./images/order-1.png" class="img-fluid" alt="Home Delivery" />
                                         </div>
@@ -343,7 +340,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="order-single" data-aos="fade-right">
+                                    <div class="order-single clr-layer" data-aos="fade-right">
                                         <div class="order-icon">
                                             <img src="./images/order-2.png" class="img-fluid" alt="Home Delivery" />
                                         </div>
@@ -354,7 +351,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <div class="order-single" data-aos="fade-right">
+                                    <div class="order-single clr-layer" data-aos="fade-right">
                                         <div class="order-icon">
                                             <img src="./images/order-3.png" class="img-fluid" alt="Home Delivery" />
                                         </div>
@@ -397,164 +394,166 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="swiper testiSwiper"  data-aos="zoom-in">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users.png" class="img-fluid" alt="">
+                        <div class="testi-box">
+                            <div class="swiper testiSwiper "  data-aos="zoom-in">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start ">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
                                                 </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start ">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
+                                                </div>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users-2.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start ">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
+                                                </div>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users-3.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start ">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
+                                                </div>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users-2.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start ">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
+                                                </div>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users-2.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
+                                                </div>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users-3.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide card-slider">
+                                        <div class="card test-card text-start ">
+                                            <div class="card-body">
+                                                <div class="test-image">
+                                                    <img src="./images/stars.png" class="img-fluid">
+                                                </div>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
+                                                <div class="avater c-gap">
+                                                    <div class="user">
+                                                        <img src="./images/users-2.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h5>Lorem ipsum</h5>
+                                                        <p>Lorem ipsum dolor sit</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users-2.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="testi-next"><svg width="59" height="59" viewBox="0 0 59 59" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="svg-hover-effect">
+                                        <circle cx="29.5" cy="29.5" r="29" fill="white" stroke="black" />
+                                        <path d="M33.0439 21.6479L41.896 30.5L33.0439 39.3521" stroke="black"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M17.1045 30.5H41.6482" stroke="black" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+    
                                 </div>
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users-3.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="testi-prev"><svg width="59" height="59" viewBox="0 0 59 59" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="svg-hover-effect">
+                                        <circle cx="29.5" cy="29.5" r="29" transform="matrix(-1 0 0 1 59 0)" fill="white"
+                                            stroke="black" />
+                                        <path d="M25.9561 21.6479L17.104 30.5L25.9561 39.3521" stroke="black"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M41.8955 30.5H17.3518" stroke="black" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+    
                                 </div>
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users-2.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users-2.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users-3.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide card-slider">
-                                    <div class="card test-card text-start">
-                                        <div class="card-body">
-                                            <div class="test-image">
-                                                <img src="./images/stars.png" class="img-fluid">
-                                            </div>
-                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur</p>
-                                            <div class="avater c-gap">
-                                                <div class="user">
-                                                    <img src="./images/users-2.png" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="user-info">
-                                                    <h5>Lorem ipsum</h5>
-                                                    <p>Lorem ipsum dolor sit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="swiper-pagination testipagination"></div>
                             </div>
-                            <div class="testi-next"><svg width="59" height="59" viewBox="0 0 59 59" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg" class="svg-hover-effect">
-                                    <circle cx="29.5" cy="29.5" r="29" fill="white" stroke="black" />
-                                    <path d="M33.0439 21.6479L41.896 30.5L33.0439 39.3521" stroke="black"
-                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M17.1045 30.5H41.6482" stroke="black" stroke-miterlimit="10"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-
-                            </div>
-                            <div class="testi-prev"><svg width="59" height="59" viewBox="0 0 59 59" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg" class="svg-hover-effect">
-                                    <circle cx="29.5" cy="29.5" r="29" transform="matrix(-1 0 0 1 59 0)" fill="white"
-                                        stroke="black" />
-                                    <path d="M25.9561 21.6479L17.104 30.5L25.9561 39.3521" stroke="black"
-                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M41.8955 30.5H17.3518" stroke="black" stroke-miterlimit="10"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-
-                            </div>
-                            <div class="swiper-pagination testi-paginaation"></div>
                         </div>
                     </div>
                 </div>

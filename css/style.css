@@ -734,11 +734,11 @@ color: #ED1C24;
 
 
 .test-card:hover:before {
-    width: 50%;
+    width: 52%;
 }
 
 .test-card:hover:after {
-    width: 50%;
+    width: 52%;
 }
 .test-card:hover .card-text{
     color: #ffffff;

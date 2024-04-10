@@ -147,7 +147,7 @@ margin-right: 12px;
     padding-bottom: 13px;
     padding-inline: 37px;
     overflow: hidden;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .cs-btn3{
     background-color: #005768;
@@ -416,7 +416,7 @@ border-radius: 30px;
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-    position: relative;
+    z-index: 99;
 }
 
 .why-single:hover .lrn-btn{
@@ -432,8 +432,9 @@ border-radius: 30px;
 .clr-layer {
     position: relative;
     overflow: hidden;
-    background-color: #fff; /* Default white background */
-    transition: background-color 0.5s ease; /* Smooth transition for background color */
+    background-color: #fff; 
+    transition: background-color 0.5s ease; 
+
 }
 
 .clr-layer:before,
@@ -444,6 +445,7 @@ border-radius: 30px;
     width: 0;
     height: 100%;
     transition: width 0.5s ease;
+    z-index: -1;
 }
 
 .clr-layer:before {
@@ -550,7 +552,7 @@ border-radius: 30px;
     }
     
     .btn.lrn-btn:hover img {
-        animation: moveRight 1s linear infinite alternate; 
+        animation: moveRight 0.7s linear infinite alternate; 
     }
     
     @keyframes moveRight {

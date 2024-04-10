@@ -1,8 +1,4 @@
 @media (max-width: 575.98px) { 
-    .waves {
-        margin-bottom: -210px;
-    
-    }
     .input-newsletter{
         flex-direction: column;
        
@@ -62,7 +58,7 @@
     }
     .hero-row{
         padding-top: 60px;
-        padding-bottom: 100px;
+        padding-bottom: 30px;
     }
     #hero{
         background-size: auto;
@@ -254,35 +250,3 @@
     }
   }
 
-
-@media (min-width: 576px) { 
-    .waves {
-        margin-bottom: 100px;
-    
-    }
- }
-@media (min-width: 768px) { 
-    .waves {
-        margin-bottom: -300px;
-    
-    }
- }
-
-@media (min-width: 992px) {  .waves {
-    margin-bottom: -100px;
-
-}}
-
-@media (min-width: 1200px) { 
-    .waves {
-        margin-bottom: -100px;
-    
-    }
-}
-
-@media (min-width: 1400px) { 
-    .waves {
-    margin-bottom: -50px;
-
-}
-}

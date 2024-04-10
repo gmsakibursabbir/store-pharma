@@ -41,7 +41,8 @@ body {
 #contact,
 #faq,
 #footer{
-overflow-x: hidden;
+overflow-x: hidden !important;
+overflow-y: hidden !important;
 }
 p{
     font-family: "Poppins", sans-serif;
@@ -866,7 +867,9 @@ color: #ED1C24;
     opacity: 1;
     font-size: 18px;
   }
-  
+  .form-control:focus{
+    box-shadow: none;
+  }
   :-ms-input-placeholder { 
     color: #ffffff;
   }

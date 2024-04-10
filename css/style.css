@@ -519,6 +519,8 @@ border-radius: 30px;
     .why-content p{
         font-weight: 300;
         padding-bottom: 43px;
+        max-width: 80%;
+        margin: 0 auto;
     }
     .lrn-btn{
         font-family: "Poppins", sans-serif;
@@ -639,7 +641,7 @@ border-radius: 30px;
     font-weight: 300;
  }
 .order-single{
-    padding: 15px 20px;
+    padding: 10px;
     border-radius: 4px;
     transition: all 0.3s;
 }
